@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "outDir": "./lib/",
+    "baseUrl": "./src",
+    "sourceMap": true,
+    "allowSyntheticDefaultImports": true,
+    "noImplicitAny": true,
+    "removeComments": true,
+    "preserveConstEnums": false,
+    "module": "commonjs",
+    "target": "es6",
+    "jsx": "react",
+    "allowJs": true
+  },
+  "include": [
+    "./src/**/*"
+  ],
+  "exclude": [
+    ".git",
+    "tslint.json",
+    ".vscode"
+  ]
+}
